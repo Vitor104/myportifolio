@@ -41,6 +41,7 @@ body {
     font-weight: bold;
     animation-name: btt;
     animation-duration: 1s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @keyframes btt {
@@ -51,6 +52,19 @@ body {
 @keyframes title {
     from {color: black;}
     to {color: white;}
+}
+
+@media only screen and (min-width: 2000px) {
+    #container > h1 {
+        font-size: 150px;
+    }
+
+    #container > form > button {
+        height: 150px;
+        width: 150px;
+        font-size: 50px;
+    }
+    
 }
 
 /*
