@@ -71,9 +71,14 @@ main > section > .box {
     left: 0;
     top: 5em;
     background-color: rgb(255, 255, 255);
-    display: none;
+    display: ;
     animation-name: nav;
     animation-duration: 2s;
+}
+
+#menu-nav > #about-me {
+    border-bottom: 5px solid black;
+    padding: 1em;
 }
 
 @keyframes nav {
