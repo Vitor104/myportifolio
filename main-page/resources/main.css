@@ -113,7 +113,7 @@ main > section > .box {
     width: 100%;
     border-bottom: 5px solid black;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -121,7 +121,16 @@ main > section > .box {
 #menu-nav > section > .box-details > img{
     height: 20%;
     background-color: #13DBB6;
-    border-radius: 50%;
+    border-radius: 10%;
+}
+
+#menu-nav > section > .box-details > a {
+    text-decoration: none;
+    color: black;
+    background-color: #13DBB6;
+    padding: 0.5em;
+    border-radius: 10%;
+    font-size: 12px;
 }
 
 
