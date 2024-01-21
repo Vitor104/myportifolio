@@ -71,7 +71,7 @@ main > section > .box {
     left: 0;
     top: 5em;
     background-color: rgb(255, 255, 255);
-    display: block;
+    display: none;
     animation-name: nav;
     animation-duration: 2s;
 }
@@ -109,7 +109,7 @@ main > section > .box {
 }
 
 #menu-nav > section > .box-details {
-    height: 5em;
+    height: 4em;
     width: 100%;
     border-bottom: 5px solid black;
     display: flex;
@@ -117,7 +117,8 @@ main > section > .box {
     align-items: center;
 }
 
-#menu-nav > section > .box-details > img {
+
+#menu-nav > section > .box-details > img{
     height: 20%;
     background-color: #13DBB6;
     border-radius: 50%;
