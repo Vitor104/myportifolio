@@ -71,7 +71,7 @@ main > section > .box {
     left: 0;
     top: 5em;
     background-color: rgb(255, 255, 255);
-    display: ;
+    display: block;
     animation-name: nav;
     animation-duration: 2s;
 }
@@ -79,7 +79,51 @@ main > section > .box {
 #menu-nav > #about-me {
     border-bottom: 5px solid black;
     padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+#menu-nav > #about-me > img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+#menu-nav > #about-me > section {
+    font-size: 12px;
+}
+
+#menu-nav > #about-me > section > p {
+    font-size: 10px;
+    margin-top: 0.5em;
+    background-color: #13DBB6;
+    padding: 0.5em;
+    border-radius: 10%;
+}
+
+#menu-nav > #skills {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 2.4em;
+}
+
+#menu-nav > section > .box-details {
+    height: 5em;
+    width: 100%;
+    border-bottom: 5px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#menu-nav > section > .box-details > img {
+    height: 20%;
+    background-color: #13DBB6;
+    border-radius: 50%;
+}
+
+
 
 @keyframes nav {
     from {top: 0; background-color: black;}
