@@ -64,7 +64,7 @@ main > section > .box {
 }
 
 #menu-nav {
-    height: 25em;
+    height: 24em;
     position: absolute;
     z-index: 1;
     width: 70%;
@@ -105,12 +105,9 @@ main > section > .box {
 }
 
 #menu-nav > #skills {
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 2em;
-    margin: 0.5em;
 }
 
 #menu-nav > section > a {
@@ -119,19 +116,27 @@ main > section > .box {
 }
 
 #menu-nav > section > a > .box-details {
-    height: 5em;
+    height: 9em;
     width: 100%;
     background-color: #13DBB6;
     text-align: center;
+    color: black;
 }
 
-#menu-nav > section > .box-details > a {
-    text-decoration: none;
-    color: black;
-    background-color: #13DBB6;
-    border-radius: 10%;
-    font-size: 12px;
+#menu-nav > section > a > .right {
+    border-right: 5px solid black;
 }
+
+#menu-nav > section > a > .top {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+#menu-nav > section > a > .side {
+    border-right: 3px solid black;
+}
+
+
 
 
 
