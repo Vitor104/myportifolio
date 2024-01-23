@@ -28,7 +28,7 @@ body {
 #container > h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     animation-name: title;
-    animation-duration: 1s;
+    animation-duration: 3s;
 }
 
 #container > form > button {
@@ -42,6 +42,7 @@ body {
     animation-name: btt;
     animation-duration: 1s;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 @keyframes btt {
