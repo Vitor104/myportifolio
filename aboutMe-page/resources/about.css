@@ -132,6 +132,75 @@ main > #contact {
 }
 
 main > #contact > a > img {
-    height: 4em;
+    height: 3em;
     width: 3em;
+}
+
+@media only screen and (min-width: 550px) {
+    main > #me > article > img {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 740px) {
+    main > #me > article > img {
+        width: 30%;
+        height: 60%;
+    }
+
+    main > #me > article > p {
+        width: 50%;
+        line-height: 1.2em;
+    }
+
+    main > #languages > .language-box {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    main > #me > article > img {
+        width: 30%;
+        height: 60%;
+    }
+
+    main > #languages > .language-box {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    nav {
+        height: 7em;
+    }
+
+    main > #me > article > img {
+        height: 70%;
+        width: 20%;
+    }
+
+    main > #me > article > h1 {
+        font-size: 30px;
+    }
+
+    main > #me > article > p {
+        font-size: 23px;
+    }
+
+    main > #technologies {
+        width: 50%;
+    }
+
+    main > #languages > .language-box > div > h4, p {
+        font-size: 35px;
+    }
+
+    main > #languages > .language-box {
+        height: 7em;
+        line-height: 2em;
+    }
+}
+
+main > #contact > h4 {
+    font-size: 30px;
 }
