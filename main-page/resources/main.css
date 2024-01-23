@@ -29,6 +29,33 @@ nav > h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+header {
+    height: 40em;
+    width: 100%;
+    
+    display: block;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+header > div {
+    height: 10em;
+    width: 10em;
+    background-color: red;
+    color: white;
+    background-color: transparent;
+    border: 3px solid rgb(22, 22, 22);
+    transition-duration: 1s;
+}
+
+header > div:hover {
+    background-color: #13DBB6;
+    transform: translate(20px, 40px);
+    border-radius: 10%;
+}
+
 main {
     height: 70em;
     width: 100%;
@@ -71,7 +98,7 @@ main > section > .box {
     left: 0;
     top: 5em;
     background-color: rgb(255, 255, 255);
-    display: block;
+    display: none;
     animation-name: nav;
     animation-duration: 2s;
 }
@@ -162,5 +189,11 @@ main > section > .box {
 }
 
 @media only screen and (min-width: 1439px) {
-    
+    nav > img {
+        display: none;
+    }
+
+    nav > h1 {
+        font-size: 21px;
+    }
 }
