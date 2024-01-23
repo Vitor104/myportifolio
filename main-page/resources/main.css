@@ -32,9 +32,7 @@ nav > h1 {
 header {
     height: 40em;
     width: 100%;
-    
-    display: block;
-    display: flex;
+    display: none;
     gap: 2em;
     justify-content: center;
     align-items: center;
@@ -195,5 +193,12 @@ main > section > .box {
 
     nav > h1 {
         font-size: 21px;
+    }
+
+    header {
+        display: flex;
+        gap: 2em;
+        justify-content: center;
+        align-items: center;
     }
 }
