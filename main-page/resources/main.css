@@ -71,7 +71,7 @@ main > section > .box {
     left: 0;
     top: 5em;
     background-color: rgb(255, 255, 255);
-    display: none;
+    display: block;
     animation-name: nav;
     animation-duration: 2s;
 }
@@ -145,11 +145,22 @@ main > section > .box {
     border-right: 3px solid black;
 }
 
-
-
-
-
 @keyframes nav {
     from {top: 0; background-color: black;}
     to {background-color: white;}
+}
+
+@media only screen and (min-width: 767px) {
+    #menu-nav > section > a > .box-details > img {
+        height: 40%;
+        width: 20%;
+    }
+
+    nav > img {
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 1439px) {
+    
 }
