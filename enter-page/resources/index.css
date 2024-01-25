@@ -10,7 +10,7 @@ body {
     background-color: white;
 }
 
-
+/*
 
 #container {
     height: 100%;
@@ -55,20 +55,59 @@ body {
     to {color: white;}
 }
 
-@media only screen and (min-width: 2000px) {
-    #container > h1 {
-        font-size: 150px;
-    }
+*/
 
-    #container > form > button {
-        height: 150px;
-        width: 150px;
-        font-size: 50px;
-    }
+#desktop-version {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#desktop-version > nav {
+    height: 5em;
+    width: 100%;
+    background-color: white;
+}
+
+#desktop-version > article {
+    height: 50em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#desktop-version > article > #figura {
+    height: 25em;
+    width: 25em;
+    border: 15px solid #13DBB6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#desktop-version > article > #figura > h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    display: block;
+}
+
+
+
+
+@media only screen and (min-width: 1024px) {
     
 }
 
 /*
 #796C75
 objeto interativo: #13DBB6
+
+#13DBB6
 */
