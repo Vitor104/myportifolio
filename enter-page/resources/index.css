@@ -95,7 +95,7 @@ body {
 #desktop-version > article > #figura > h2 {
     font-size: 40px;
     text-transform: uppercase;
-    display: block;
+    display: none;
 }
 
 
