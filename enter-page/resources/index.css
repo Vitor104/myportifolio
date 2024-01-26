@@ -120,6 +120,26 @@ body {
     animation-name: word;
 }
 
+#desktop-version > #meusDados {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 2em;
+    line-height: 1.9em;
+    height: 10em;
+}
+
+#desktop-version > #meusDados > h2 {
+    font-size: 15px;
+}
+
+#desktop-version > #meusDados > h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #13DBB6;
+}
+
 @keyframes word {
     from {color: black;}
 }
