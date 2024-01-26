@@ -82,7 +82,11 @@ body {
     justify-content: center;
 }
 
-#desktop-version > article > #figura {
+#desktop-version > article > a {
+    text-decoration: none;
+}
+
+#desktop-version > article > a > #figura {
     height: 25em;
     width: 25em;
     border: 15px solid #13DBB6;
@@ -90,13 +94,25 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-duration: 1s;
 }
 
-#desktop-version > article > #figura > h2 {
+#desktop-version > article > a > #figura:hover {
+    border: 30px solid #13DBB6;
+    transform: translate(10px, 10px);
+}
+
+#desktop-version > article > a > #figura > h2 {
     font-size: 40px;
     text-transform: uppercase;
     display: none;
     color: white;
+    animation-duration: 2s;
+    animation-name: word;
+}
+
+@keyframes word {
+    from {color: black;}
 }
 
 
