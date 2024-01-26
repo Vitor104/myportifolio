@@ -72,6 +72,15 @@ body {
     height: 5em;
     width: 100%;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#desktop-version > nav > a > img {
+    width: 10%;
+    height: 20%;
 }
 
 #desktop-version > article {
