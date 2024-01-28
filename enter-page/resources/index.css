@@ -10,7 +10,7 @@ body {
     background-color: white;
 }
 
-/*
+
 
 #container {
     height: 100%;
@@ -55,7 +55,7 @@ body {
     to {color: white;}
 }
 
-*/
+
 
 #desktop-version {
     height: 100%;
@@ -63,7 +63,7 @@ body {
     background-color: black;
     margin: 0 auto;
     color: white;
-    display: flex;
+    display: none;
     align-items: center;
     flex-direction: column;
 }
@@ -145,10 +145,22 @@ body {
 }
 
 
+@media only screen and (min-width: 1023px) {
+    #container {
+        display: none;
+    }
 
+    #desktop-version {
+        display: flex;
+    }
+}
 
 @media only screen and (min-width: 2000px) {
-    
+    body {
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+    }
 }
 
 /*
