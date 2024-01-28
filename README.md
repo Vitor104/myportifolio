@@ -1,2 +1,2 @@
 # portifolio
-*Welcome to my portifolio!
+Welcome to my portifolio!
