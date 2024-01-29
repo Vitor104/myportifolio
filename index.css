@@ -26,7 +26,7 @@ body {
 }
 
 #container > h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     animation-name: title;
     animation-duration: 3s;
 }
@@ -118,6 +118,7 @@ body {
     color: white;
     animation-duration: 2s;
     animation-name: word;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #desktop-version > #meusDados {
@@ -132,12 +133,14 @@ body {
 
 #desktop-version > #meusDados > h2 {
     font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #desktop-version > #meusDados > h1 {
     font-size: 25px;
     text-transform: uppercase;
     color: #13DBB6;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 @keyframes word {
