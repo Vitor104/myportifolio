@@ -60,6 +60,10 @@ header > a > div > img {
     height: 50%;
 }
 
+header > a > div > h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 header > a > div:hover {
     background-color: #13DBB6;
     transform: translate(20px, 40px);
