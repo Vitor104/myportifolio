@@ -125,6 +125,10 @@ main > #languages > .language-box > div > img {
     margin-top: 1em;
 }
 
+main > #languages > .language-box > div {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 main > #contact {
     height: 5em;
     width: 100%;
