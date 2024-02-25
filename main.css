@@ -113,8 +113,6 @@ main > section > .box {
     top: 5em;
     background-color: rgb(255, 255, 255);
     display: none;
-    animation-name: nav;
-    animation-duration: 2s;
 }
 
 #menu-nav > #about-me {
@@ -186,10 +184,6 @@ main > section > .box {
     border-right: 3px solid black;
 }
 
-@keyframes nav {
-    from {top: 0; background-color: black;}
-    to {background-color: white;}
-}
 
 @media only screen and (min-width: 767px) {
     #menu-nav > section > a > .box-details > img {
