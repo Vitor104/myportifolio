@@ -5,170 +5,92 @@
 }
 
 body {
-    height: 100vh;
-    width: 100%;
-    background-color: white;
+    background-color: #06141B;
+    color: white;
 }
-
-
 
 #container {
-    height: 100%;
-    width: 95%;
-    background-color: black;
-    margin: 0 auto;
-    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 2em;
-}
-
-#container > h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    animation-name: title;
-    animation-duration: 3s;
-}
-
-#container > form > button {
-    height: 5em;
-    width: 5em;
-    border-radius: 50%;
-    background-color: #13DBB6;
-    border: none;
-    color: black;
-    font-weight: bold;
-    animation-name: btt;
-    animation-duration: 1s;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
-
-@keyframes btt {
-    from {height: 0.5em; background-color: rgb(0, 0, 0);}
-    to {display: block;}
-}
-
-@keyframes title {
-    from {color: black;}
-    to {color: white;}
-}
-
-
-
-#desktop-version {
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    margin: 0 auto;
-    color: white;
-    display: none;
-    align-items: center;
-    flex-direction: column;
-}
-
-#desktop-version > nav {
-    height: 5em;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    height: 35em;
     text-align: center;
 }
 
-#desktop-version > nav > a > img {
-    width: 10%;
-    height: 20%;
-}
-
-#desktop-version > article {
-    height: 50em;
+#container > section {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    height: 7em;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
-#desktop-version > article > a {
+#container > section > a {
     text-decoration: none;
+    color: black;
 }
 
-#desktop-version > article > a > #figura {
-    height: 25em;
-    width: 25em;
-    border: 15px solid #13DBB6;
-    border-radius: 50%;
+#container > section > a > div {
+    height: 5em;
+    width: 5em;
+    background-color: #CCD0CF;
+    text-align: center;
+    border-radius: 50%;    
     display: flex;
     align-items: center;
     justify-content: center;
-    transition-duration: 1s;
 }
 
-#desktop-version > article > a > #figura:hover {
-    border: 30px solid #13DBB6;
-    transform: translate(10px, 10px);
+#container > section > a > div > h2 {
+    font-size: 18px;
 }
 
-#desktop-version > article > a > #figura > h2 {
-    font-size: 40px;
-    text-transform: uppercase;
-    display: none;
-    color: white;
-    animation-duration: 2s;
-    animation-name: word;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/*  SECOND CONTAINER  */
+
+#second-container {
+    height: 150em;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    top: 5em;
 }
 
-#desktop-version > #meusDados {
+#second-container > nav {
+    height: 4em;
+    width: 100%;
+    border-bottom: 3px solid black;
     display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: start;
-    padding: 2em;
-    line-height: 1.9em;
-    height: 10em;
+    justify-content: center;
+    align-items: center;
 }
 
-#desktop-version > #meusDados > h2 {
-    font-size: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#second-container > nav > img {
+    height: 50%;
 }
 
-#desktop-version > #meusDados > h1 {
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #13DBB6;
-    font-family: 'Courier New', Courier, monospace;
+#second-container > main > #about {
+    height: 30em;
+    width: 100%;
+    background-color: red;
 }
 
-@keyframes word {
-    from {color: black;}
+#second-container > main > #projects {
+    height: 30em;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
 }
 
-
-@media only screen and (min-width: 1023px) {
-    #container {
-        display: none;
-    }
-
-    #desktop-version {
-        display: flex;
-    }
+#second-container > main > #languages {
+    height: 30em;
+    width: 100%;
+    background-color: blue;
 }
 
-@media only screen and (min-width: 2000px) {
-    body {
-        width: 50%;
-        height: auto;
-        margin: 0 auto;
-    }
+#second-container > main > #technologies {
+    height: 30em;
+    width: 100%;
+    background-color: yellow;
 }
-
-/*
-#796C75
-objeto interativo: #13DBB6
-
-#13DBB6
-*/
