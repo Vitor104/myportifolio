@@ -74,23 +74,89 @@ body {
 #second-container > main > #about {
     height: 30em;
     width: 100%;
-    background-color: red;
+    background-color: #06141B;
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
 }
 
-#second-container > main > #projects {
-    height: 30em;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
+#second-container > main > #about > .title {
+    background-color: #4A5C6A;
+    width: 50%;
+    height: 1.5em;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#second-container > main > #about > article > img {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+
+#second-container > main > #about > article > p {
+    width: 95%;
 }
 
 #second-container > main > #languages {
     height: 30em;
     width: 100%;
     background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#second-container > main > #languages > .title {
+    background-color: #4A5C6A;
+    width: 50%;
+    height: 1.5em;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
 }
 
 #second-container > main > #technologies {
     height: 30em;
     width: 100%;
     background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+#second-container > main > #technologies > .title {
+    background-color: #4A5C6A;
+    width: 50%;
+    height: 1.5em;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#second-container > main > #projects {
+    height: 50em;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#second-container > main > #projects > .title {
+    background-color: #4A5C6A;
+    width: 50%;
+    height: 1.5em;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
