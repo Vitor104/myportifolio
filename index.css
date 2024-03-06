@@ -233,6 +233,9 @@ body {
 }
 
 
+/* PROJECTS   */
+
+
 
 #second-container > main > #projects {
     height: 50em;
@@ -251,6 +254,22 @@ body {
     height: 1.5em;
     margin: 0 auto;
     text-align: center;
+    border-radius: 10px;
+}
+
+#second-container > main > #projects > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+#second-container > main > #projects > article > .box-technologies {
+    
+}
+
+#second-container > main > #projects > article > .box-technologies > img {
+    height: 10em;
     border-radius: 10px;
 }
 
