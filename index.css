@@ -267,7 +267,7 @@ body {
     gap: 1em;
 }
 
-#second-container > main > #projects > article > .box-projects {
+#second-container > main > #projects > article > a > .box-projects {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -275,14 +275,24 @@ body {
     height: 5em;
 }
 
-#second-container > main > #projects > article > .box-projects > img {
+#second-container > main > #projects > article > a > .box-projects > img {
     height: 15em;
     border-radius: 10px;
 }
 
-#second-container > main > #projects > article > .box-projects > a > button {
+#second-container > main > #projects > article > a > .box-projects > a > button {
     height: 3em;
     width: 5em;
     margin-top: 2em;
+}
+
+#second-container > main > #projects > article > a > .book {
+    border: 3px solid orange;
+
+}
+
+#second-container > main > #projects > article > a > .sun {
+    border: 3px solid rgb(255, 255, 255);
+
 }
 
