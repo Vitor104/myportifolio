@@ -56,6 +56,8 @@ body {
     background-color: white;
     position: relative;
     top: 5em;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -182,6 +184,7 @@ body {
     height: 30em;
     width: 100%;
     background-color: #06141B;
+    border-bottom: 2px solid white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -240,7 +243,7 @@ body {
 #second-container > main > #projects {
     height: 50em;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: #06141B;
     border-bottom: 2px solid white;
     display: flex;
     flex-direction: column;
@@ -264,12 +267,22 @@ body {
     gap: 1em;
 }
 
-#second-container > main > #projects > article > .box-technologies {
-    
+#second-container > main > #projects > article > .box-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 5em;
 }
 
-#second-container > main > #projects > article > .box-technologies > img {
-    height: 10em;
+#second-container > main > #projects > article > .box-projects > img {
+    height: 15em;
     border-radius: 10px;
+}
+
+#second-container > main > #projects > article > .box-projects > a > button {
+    height: 3em;
+    width: 5em;
+    margin-top: 2em;
 }
 
