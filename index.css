@@ -51,7 +51,7 @@ body {
 /*  SECOND CONTAINER - ABOUT   */
 
 #second-container {
-    height: 150em;
+    height: 200em;
     width: 100%;
     background-color: white;
     position: relative;
@@ -241,7 +241,7 @@ body {
 
 
 #second-container > main > #projects {
-    height: 50em;
+    height: 90em;
     width: 100%;
     background-color: #06141B;
     border-bottom: 2px solid white;
@@ -272,7 +272,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 5em;
+    height: 15em;
 }
 
 #second-container > main > #projects > article > a > .box-projects > img {
@@ -284,15 +284,5 @@ body {
     height: 3em;
     width: 5em;
     margin-top: 2em;
-}
-
-#second-container > main > #projects > article > a > .book {
-    border: 3px solid orange;
-
-}
-
-#second-container > main > #projects > article > a > .sun {
-    border: 3px solid rgb(255, 255, 255);
-
 }
 
