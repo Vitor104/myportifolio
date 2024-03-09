@@ -74,6 +74,10 @@ body {
     height: 50%;
 }
 
+#second-container > nav > #desktop-version {
+    display: none;
+}
+
 #second-container > nav > #hidden-nav {
     height: 10em;
     width: 100%;
@@ -333,5 +337,34 @@ body {
     height: 3em;
     width: 5em;
     margin-top: 2em;
+}
+
+/* MEDIA QUERIES  */
+
+@media only screen and (min-width: 760px) {
+    #second-container > nav > #list {
+        display: none;
+    }
+
+    #second-container > nav > #hidden-nav {
+        display: none;
+    }
+
+    #second-container > nav > #desktop-version {
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+
+    #second-container > nav > #desktop-version > li {
+        margin-left: 1.5em;
+    }
+
+    #second-container > nav > #desktop-version > li > a {
+        text-decoration: none;
+        color: black;
+    }
+
+    
 }
 
