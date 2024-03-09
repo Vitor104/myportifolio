@@ -1,12 +1,13 @@
+function myHNav() {
+    let hiddenNav = document.getElementById('hidden-nav');
 
-
-function myFunction() {
-    let figuraWord = document.getElementById('word-figura');
-    figuraWord.style.display = "block";
+    if (hiddenNav.style.display === 'none') {
+        hiddenNav.style.display = 'block';
+    } else {
+        hiddenNav.style.display = 'none';
+    }
 }
 
-function myOutFunction() {
-    let figuraWord = document.getElementById('word-figura');
-    figuraWord.style.display = 'none';
-}
+
+let listClick = document.getElementById('list').addEventListener('click', myHNav);
 
