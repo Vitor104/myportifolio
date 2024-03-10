@@ -339,6 +339,36 @@ body {
     margin-top: 2em;
 }
 
+
+/* DESKTOP VERSION   */
+
+#desktop-version {
+    display: flex;
+    flex-direction: column;
+}
+
+#desktop-version > nav {
+    height: 6em;
+    width: 100%;
+    border-bottom: 3px solid #FFFFFF;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+}
+
+#desktop-version > nav > a > img {
+    height: 3em;
+    background-color: white;
+}
+
+#desktop-version > nav > a > #github {
+    border-radius: 50%;
+}
+
+
 /* MEDIA QUERIES  */
 
 @media only screen and (min-width: 760px) {
@@ -377,3 +407,8 @@ body {
     
 }
 
+@media only screen and (min-width: 1024px) {
+    #container, #second-container {
+        display: none;
+    }
+}
