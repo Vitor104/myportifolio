@@ -48,7 +48,7 @@ body {
     font-size: 18px;
 }
 
-/*  SECOND CONTAINER - ABOUT   */
+/*  SECOND CONTAINER  */
 
 #second-container {
     height: 200em;
@@ -365,6 +365,15 @@ body {
         color: black;
     }
 
+    #second-container > main > #about > article {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #second-container > main > #about > article > p {
+        width: 70%;
+    }
     
 }
 
