@@ -9,6 +9,10 @@ body {
     color: white;
 }
 
+#desktop-version {
+    display: none;
+}
+
 #container {
     display: flex;
     flex-direction: column;
@@ -47,6 +51,7 @@ body {
 #container > section > a > div > h2 {
     font-size: 18px;
 }
+
 
 /*  SECOND CONTAINER  */
 
@@ -345,13 +350,13 @@ body {
 #desktop-version {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 #desktop-version > nav {
     height: 6em;
     width: 100%;
     border-bottom: 3px solid #FFFFFF;
-    position: fixed;
     z-index: 1;
     display: flex;
     align-items: center;
@@ -368,10 +373,78 @@ body {
     border-radius: 50%;
 }
 
+#desktop-version > header {
+    height: 100vh;
+    width: 100%;
+    background-color: #06141B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#desktop-version > header > #introduction {
+    display: flex;
+    height: 10em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#desktop-version > header > #introduction > h3 {
+    font-size: 20px;
+}
+
+#desktop-version > header > #introduction > a {
+    text-decoration: none;
+}
+
+#desktop-version > header > #introduction > a > button {
+    height: 4em;
+    width: 15em;
+    border-radius: 10px;
+    border: none;
+    background-color: #CCD0CF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#desktop-version > header > #introduction > a > button > p {
+    font-size: 20px;
+}
+
+#desktop-version > header > #introduction > a > button > img {
+    height: 1.5em;
+    position: relative;
+    left: 3em;
+}
+
+#desktop-version > header > #details {
+    position: absolute;
+    top: 8em;
+    left: 3em;
+    color: #B58863;
+}
+
+#desktop-version > header > #details > h2 {
+    font-size: 18px;
+}
+
+#desktop-version > main {
+    height: 50em;
+    width: 100%;
+    background-color: white;
+}
 
 /* MEDIA QUERIES  */
 
 @media only screen and (min-width: 760px) {
+    #desktop-version {
+        display: none;
+    }
+
     #second-container > nav > #list {
         display: none;
     }
@@ -410,5 +483,9 @@ body {
 @media only screen and (min-width: 1024px) {
     #container, #second-container {
         display: none;
+    }
+
+    #desktop-version {
+        display: block;
     }
 }
