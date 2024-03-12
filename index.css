@@ -357,7 +357,6 @@ body {
     height: 6em;
     width: 100%;
     border-bottom: 3px solid #FFFFFF;
-    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -433,10 +432,125 @@ body {
 }
 
 #desktop-version > main {
+    height: 150em;
+    width: 100%;
+    background-color: rgb(255, 14, 14);
+}
+
+#desktop-version > main > #desktop-intro {
     height: 50em;
     width: 100%;
-    background-color: white;
+    background-color: #06141B;
 }
+
+#desktop-version > main > #desktop-intro > .navegacao-desktop {
+    height: 6em;
+    width: 100%;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+    display: flex;
+    align-items: center;
+}
+
+
+#desktop-version > main > #desktop-intro > .navegacao-desktop > ul {
+    display: flex;
+    align-items: center;
+    gap: 4em;
+    position: relative;
+    left: 1em;
+    list-style: none;
+}
+
+
+#desktop-version > main > #desktop-intro > .navegacao-desktop > ul > li > a {
+    text-decoration: none;
+    color: white;
+} 
+
+#desktop-version > main > #desktop-intro > .navegacao-desktop > ul > .orange-detail {
+    border-bottom: 3px solid orange;
+    padding: 1em;
+}
+
+#desktop-version > main > #desktop-intro > .navegacao-desktop > ul > li > a > p {
+    font-size: 20px;
+}
+
+#desktop-version > main > #desktop-intro > #image-and-description {
+    height: 44em;
+    width: 100%;
+    background-color: #06141B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#desktop-version > main > #desktop-intro > #image-and-description > #photo {
+    height: 30em;
+    width: 30em;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#desktop-version > main > #desktop-intro > #image-and-description > #description {
+    height: 30em;
+    width: 30em;
+    background-color: #CCD0CF;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#desktop-version > main > #desktop-intro > #image-and-description > #description > p {
+    font-size: 18px;
+}
+
+#desktop-version > main > #desktop-languages {
+    height: 50em;
+    width: 100%;
+    background-color: #02abff;
+}
+
+#desktop-version > main > #desktop-languages > .navegacao-desktop {
+    height: 6em;
+    width: 100%;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+    display: flex;
+    align-items: center;
+}
+
+#desktop-version > main > #desktop-languages > .navegacao-desktop > ul {
+    display: flex;
+    align-items: center;
+    gap: 4em;
+    position: relative;
+    left: 1em;
+    list-style: none;
+}
+
+
+#desktop-version > main > #desktop-languages > .navegacao-desktop > ul > li > a {
+    text-decoration: none;
+    color: white;
+} 
+
+#desktop-version > main > #desktop-languages > .navegacao-desktop > ul > .orange-detail {
+    border-bottom: 3px solid orange;
+    padding: 1em;
+}
+
+#desktop-version > main > #desktop-languages > .navegacao-desktop > ul > li > a > p {
+    font-size: 20px;
+}
+
+
 
 /* MEDIA QUERIES  */
 
