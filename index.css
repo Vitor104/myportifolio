@@ -514,7 +514,7 @@ body {
 #desktop-version > main > #desktop-languages {
     height: 50em;
     width: 100%;
-    background-color: #02abff;
+    background-color: #06141B;
 }
 
 #desktop-version > main > #desktop-languages > .navegacao-desktop {
@@ -550,7 +550,62 @@ body {
     font-size: 20px;
 }
 
+#desktop-version > main > #desktop-languages > article {
+    height: 44em;
+    width: 100%;
+    background-color: #06141B;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
 
+#desktop-version > main > #desktop-languages > article > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    color: white;
+}
+
+#desktop-version > main > #desktop-languages > article > section > p {
+    font-size: 18px;
+}
+
+#desktop-version > main > #desktop-languages > article > section > .desktop-box-languages {
+    height: 15em;
+    width: 15em;
+    border-radius: 50%;
+}
+
+#desktop-version > main > #desktop-languages > article > section > .brasil {
+    background-image: url('/images/brazil-.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#desktop-version > main > #desktop-languages > article > section > .english {
+    background-image: url('/images/united-kingdom.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#desktop-version > main > #desktop-languages > article > section > .esperanto {
+    background-image: url('/images/esperanto.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#desktop-version > main > #desktop-languages > article > section > .frances {
+    background-image: url('/images/france.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* MEDIA QUERIES  */
 
