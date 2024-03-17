@@ -432,7 +432,7 @@ body {
 }
 
 #desktop-version > main {
-    height: 150em;
+    height: 200em;
     width: 100%;
     background-color: rgb(255, 14, 14);
 }
@@ -574,8 +574,8 @@ body {
 }
 
 #desktop-version > main > #desktop-languages > article > section > .desktop-box-languages {
-    height: 15em;
-    width: 15em;
+    height: 10em;
+    width: 10em;
     border-radius: 50%;
 }
 
@@ -605,6 +605,87 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#desktop-version > main > #desktop-technologies {
+    height: 50em;
+    width: 100%;
+    background-color: #06141B;
+}
+
+#desktop-version > main > #desktop-technologies > .navegacao-desktop {
+    height: 6em;
+    width: 100%;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+    display: flex;
+    align-items: center;
+}
+
+#desktop-version > main > #desktop-technologies > .navegacao-desktop > ul {
+    display: flex;
+    align-items: center;
+    gap: 4em;
+    position: relative;
+    left: 1em;
+    list-style: none;
+}
+
+
+#desktop-version > main > #desktop-technologies > .navegacao-desktop > ul > li > a {
+    text-decoration: none;
+    color: white;
+} 
+
+#desktop-version > main > #desktop-technologies > .navegacao-desktop > ul > .orange-detail {
+    border-bottom: 3px solid orange;
+    padding: 1em;
+}
+
+#desktop-version > main > #desktop-technologies > .navegacao-desktop > ul > li > a > p {
+    font-size: 20px;
+}
+
+#desktop-version > main > #desktop-technologies > article {
+    height: 44em;
+    width: 100%;
+    background-color: #06141B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+}
+
+#desktop-version > main > #desktop-technologies > article > section > .desktop-box-technologies {
+    height: 10em;
+    width: 10em;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+#desktop-version > main > #desktop-technologies > article > section > .html {
+    background-image: url('/images/html.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#desktop-version > main > #desktop-technologies > article > section > .css {
+    background-image: url('/images/css-3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 6px solid white;
+}
+
+#desktop-version > main > #desktop-technologies > article > section > .javascript {
+    background-image: url('/images/js.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 6px solid white;
 }
 
 /* MEDIA QUERIES  */
