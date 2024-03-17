@@ -728,7 +728,6 @@ body {
 }
 
 #desktop-version > main > #desktop-projects > #boxes {
-    background-color: white;
     height: 44em;
     width: 100%;
     display: flex;
@@ -741,7 +740,8 @@ body {
 #desktop-version > main > #desktop-projects > #boxes > .desktop-box-projects {
     height: 20em;
     width: 20em;
-    background-color: aqua;
+    background-color: #CCD0CF;
+    color: black;
     border-radius: 10px;
 }
 
