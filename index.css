@@ -688,6 +688,64 @@ body {
     border: 6px solid white;
 }
 
+#desktop-version > main > #desktop-projects {
+    height: 50em;
+    width: 100%;
+    background-color: #06141B;
+}
+
+#desktop-version > main > #desktop-projects > .navegacao-desktop {
+    height: 6em;
+    width: 100%;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+    display: flex;
+    align-items: center;
+}
+
+#desktop-version > main > #desktop-projects > .navegacao-desktop > ul {
+    display: flex;
+    align-items: center;
+    gap: 4em;
+    position: relative;
+    left: 1em;
+    list-style: none;
+}
+
+
+#desktop-version > main > #desktop-projects > .navegacao-desktop > ul > li > a {
+    text-decoration: none;
+    color: white;
+} 
+
+#desktop-version > main > #desktop-projects > .navegacao-desktop > ul > .orange-detail {
+    border-bottom: 3px solid orange;
+    padding: 1em;
+}
+
+#desktop-version > main > #desktop-projects > .navegacao-desktop > ul > li > a > p {
+    font-size: 20px;
+}
+
+#desktop-version > main > #desktop-projects > #boxes {
+    background-color: white;
+    height: 44em;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+#desktop-version > main > #desktop-projects > #boxes > .desktop-box-projects {
+    height: 20em;
+    width: 20em;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+
 /* MEDIA QUERIES  */
 
 @media only screen and (min-width: 320px) {
