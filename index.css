@@ -392,7 +392,8 @@ body {
 }
 
 #desktop-version > header > #introduction > h3 {
-    font-size: 20px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #desktop-version > header > #introduction > a {
@@ -426,6 +427,7 @@ body {
     top: 8em;
     left: 3em;
     color: #B58863;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #desktop-version > header > #details > h2 {
@@ -441,6 +443,10 @@ body {
     height: 50em;
     width: 100%;
     background-color: #06141B;
+}
+
+#desktop-version > main > #desktop-intro, #desktop-languages, #desktop-technologies, #desktop-projects > .navegacao-desktop {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #desktop-version > main > #desktop-intro > .navegacao-desktop {
@@ -505,6 +511,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #desktop-version > main > #desktop-intro > #image-and-description > #description > p {
@@ -577,6 +584,7 @@ body {
     height: 10em;
     width: 10em;
     border-radius: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #desktop-version > main > #desktop-languages > article > section > .brasil {
@@ -663,6 +671,7 @@ body {
     width: 10em;
     background-color: #ffffff;
     border-radius: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #desktop-version > main > #desktop-technologies > article > section > .html {
@@ -751,6 +760,7 @@ body {
 
 #desktop-version > main > #desktop-projects > #boxes > .desktop-box-projects > h3 {
     font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #desktop-version > main > #desktop-projects > #boxes > .desktop-box-projects > a > button {
@@ -761,6 +771,7 @@ body {
     background-color: #06141B;
     color: white;
     cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -816,6 +827,21 @@ body {
 
     #desktop-version {
         display: block;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+
+    #desktop-version > main > #desktop-intro > #image-and-description > #description > h2 {
+        font-size: 30px;
+    }
+
+    #desktop-version > main > #desktop-intro > #image-and-description > #description > p {
+        font-size: 25px;
+    }
+
+    #desktop-version > main > #desktop-languages > article > section >  h3, p {
+        font-size: 25px;
     }
 }
 
