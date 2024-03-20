@@ -366,6 +366,8 @@ body {
 #desktop-version > nav > a > img {
     height: 3em;
     background-color: white;
+    border-radius: 50%;
+    border: 3px solid white;
 }
 
 #desktop-version > nav > a > #github {
