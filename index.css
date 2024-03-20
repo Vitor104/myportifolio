@@ -208,28 +208,28 @@ body {
 }
 
 #second-container > main > #languages > article > .box-languages > #brazil {
-    background-image: url('/images/brazil-.png');
+    background-image: url('./images/brazil-.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #second-container > main > #languages > article > .box-languages > #france {
-    background-image: url('/images/france.png');
+    background-image: url('./images/france.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #second-container > main > #languages > article > .box-languages > #esperanto {
-    background-image: url('/images/esperanto.png');
+    background-image: url('./images/esperanto.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #second-container > main > #languages > article > .box-languages > #english {
-    background-image: url('/images/united-kingdom.png');
+    background-image: url('./images/united-kingdom.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -271,14 +271,14 @@ body {
 }
 
 #second-container > main > #technologies > article > .box-technologies > #html {
-    background-image: url('/images/html.png');
+    background-image: url('./images/html.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #second-container > main > #technologies > article > .box-technologies > #css {
-    background-image: url('/images/css-3.png');
+    background-image: url('./images/css-3.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -286,7 +286,7 @@ body {
 }
 
 #second-container > main > #technologies > article > .box-technologies > #js {
-    background-image: url('/images/js.png');
+    background-image: url('./images/js.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -588,28 +588,28 @@ body {
 }
 
 #desktop-version > main > #desktop-languages > article > section > .brasil {
-    background-image: url('/images/brazil-.png');
+    background-image: url('./images/brazil-.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #desktop-version > main > #desktop-languages > article > section > .english {
-    background-image: url('/images/united-kingdom.png');
+    background-image: url('./images/united-kingdom.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #desktop-version > main > #desktop-languages > article > section > .esperanto {
-    background-image: url('/images/esperanto.png');
+    background-image: url('./images/esperanto.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #desktop-version > main > #desktop-languages > article > section > .frances {
-    background-image: url('/images/france.png');
+    background-image: url('./images/france.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -675,14 +675,14 @@ body {
 }
 
 #desktop-version > main > #desktop-technologies > article > section > .html {
-    background-image: url('/images/html.png');
+    background-image: url('./images/html.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #desktop-version > main > #desktop-technologies > article > section > .css {
-    background-image: url('/images/css-3.png');
+    background-image: url('./images/css-3.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -690,7 +690,7 @@ body {
 }
 
 #desktop-version > main > #desktop-technologies > article > section > .javascript {
-    background-image: url('/images/js.png');
+    background-image: url('./images/js.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
