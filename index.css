@@ -7,6 +7,7 @@
 body {
     background-color: #06141B;
     color: white;
+    animation: slideIn 1s ease-out forwards;
 }
 
 #desktop-version {
@@ -37,7 +38,7 @@ body {
     color: black;
 }
 
-#container > section > a > div {
+#container > section > a > button {
     height: 5em;
     width: 5em;
     background-color: #CCD0CF;
@@ -48,15 +49,9 @@ body {
     justify-content: center;
 }
 
-#container > section > a > div > h2 {
+#container > section > a > button > h2 {
     font-size: 18px;
 }
-
-@keyframes scrolldown {
-    0% { transform: translateY(0); }
-  100% { transform: translateY(50%); }
-}
-
 /*  SECOND CONTAINER  */
 
 #second-container {
@@ -786,6 +781,18 @@ body {
     cursor: pointer;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* KEY FRAMES  */
+
+@keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
 
 
 /* MEDIA QUERIES  */
